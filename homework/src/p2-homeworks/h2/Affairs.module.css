@@ -1,3 +1,30 @@
-.someClass {
-
+.container {
+    width: 500px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    margin: 10px;
+    color: white;
+}
+.container div{
+    margin-left: 10px;
+}
+.btnContainer{
+    width: 500px;
+    background: #374174;
+    padding: 20px;
+}
+.btnContainer button{
+    background: #af5669;
+}
+.high{
+    color:#b31414;
+    font-weight: bold;
+}
+.low{
+    color:green;
+    font-weight: bold;
+}
+.middle{
+    color:yellow;
+    font-weight: bold;
 }
