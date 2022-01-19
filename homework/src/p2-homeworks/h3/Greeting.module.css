@@ -2,6 +2,34 @@
 
 }
 
+.container{
+    background: linear-gradient(#8772e9, #21386c);
+    height: 50px;
+    padding: 10px;
+    width: 470px;
+}
+input{
+    padding-left: 10px;
+}
 .error {
-    border: 1px solid red;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.noError {
+    border: 2px solid green;
+    border-radius: 10px;
+}
+button{
+    border-radius: 10px;
+}
+.btnAdd{
+    background: white;
+    color:#7d7d7d;
+}
+.errorSpan{
+    color: white;
+}
+.totalUsers{
+    color: white;
+    margin-left: 20px;
 }

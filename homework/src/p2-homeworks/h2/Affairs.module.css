@@ -10,14 +10,18 @@
 }
 .btnContainer{
     width: 500px;
-    background: #374174;
+    background: linear-gradient(#406644, #73e244);
     padding: 20px;
 }
 .btnContainer button{
-    background: #af5669;
+    background: white;
+    color:  #4caf50;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 10px;
 }
 .high{
-    color:#b31414;
+    color:#720808;
     font-weight: bold;
 }
 .low{
