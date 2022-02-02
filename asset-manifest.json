@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ignats-hometasks/static/css/main.42dba5d5.css",
+    "main.js": "/ignats-hometasks/static/js/main.b0fc553a.js",
+    "index.html": "/ignats-hometasks/index.html",
+    "main.42dba5d5.css.map": "/ignats-hometasks/static/css/main.42dba5d5.css.map",
+    "main.b0fc553a.js.map": "/ignats-hometasks/static/js/main.b0fc553a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42dba5d5.css",
+    "static/js/main.b0fc553a.js"
+  ]
+}
