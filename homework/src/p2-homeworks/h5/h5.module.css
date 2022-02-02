@@ -1,0 +1,27 @@
+.containerLinks {
+    transform: translate(-240px);
+    transition: all 1s ease;
+    background: #fbc6b4;
+    height: 40px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.navLink , .navLinkActive {
+    text-decoration: none;
+    font-size: 17px;
+    color: #a88080;
+    margin-top: 0;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.navLinkActive {
+    color: #000000;
+}
+.navLink:hover{
+    text-decoration: underline;
+}
+.containerLinks:hover{
+    transform: translate(0px);
+}
