@@ -1,3 +1,15 @@
-.App {
+body {
+    background: #d5adad;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position:absolute;
+    width:100%;
+    text-align:center;
 
+}
+
+hr {
+    border: 2px solid #a962c2;
 }
