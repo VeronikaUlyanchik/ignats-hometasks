@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 
+
 function Clock() {
     const [timerId, setTimerId] = useState<number>(0)
     const [date, setDate] = useState<Date>(new Date())
@@ -24,8 +25,10 @@ function Clock() {
         setShow(false)
     }
 
-    const stringTime = `${date.getHours()} : ${date.getMinutes()} : ${date.getSeconds()}`  // fix with date
-    const stringDate = `${date.getDate()} : ${date.getMonth()+1} : ${date.getFullYear()}`  // fix with date
+   // const stringTime = `${date.getHours()} : ${date.getMinutes()} : ${date.getSeconds()}`
+    const stringTime = date?.toLocaleTimeString() || <br/>  // fix with date
+    const stringDate = date?.toLocaleDateString() || <br/>  // fix with date
+   // const stringDate = `${date.getDate()} : ${date.getMonth()+1} : ${date.getFullYear()}`  // fix with date
 
     return (
         <div>
