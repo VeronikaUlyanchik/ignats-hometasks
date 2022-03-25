@@ -7,8 +7,6 @@ function HW10() {
     const dispatch = useDispatch();
     const state = useSelector((store:AppStoreType)=> store.loading)
 
-    const loading = false
-
     const setLoading = () => {
         dispatch(setLoadingAC())
         setTimeout(()=>dispatch(setLoadingAC()),2000)
