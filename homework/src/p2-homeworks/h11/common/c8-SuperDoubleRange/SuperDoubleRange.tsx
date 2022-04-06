@@ -25,7 +25,7 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
         if (!Array.isArray(value)) {
             return
         }
-        if (value[0]>=value[1] || value[1]<=value[0]) {
+        if (value[0]>=value[1]) {
             setDisabled(true)
         } else {
             onChangeRange && onChangeRange(value)

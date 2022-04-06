@@ -8,7 +8,7 @@ function HW11() {
 
     const onChangeRange = (value:  number[])=> {
             setValue1(value[0])
-            setValue2(value[1])
+        setValue2(value[1])
     }
     return (
         <div>
